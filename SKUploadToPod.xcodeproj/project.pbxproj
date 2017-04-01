@@ -14,6 +14,7 @@
 		EFF5DD4F1E8FCCD400874150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD4E1E8FCCD400874150 /* Assets.xcassets */; };
 		EFF5DD521E8FCCD400874150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD501E8FCCD400874150 /* LaunchScreen.storyboard */; };
 		EFF5DD5C1E8FCCFA00874150 /* takePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */; };
+		EFF5DD5F1E8FCD2100874150 /* Puppetcat.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD5E1E8FCD2100874150 /* Puppetcat.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EFF5DD531E8FCCD400874150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF5DD5A1E8FCCFA00874150 /* takePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = takePhoto.h; sourceTree = "<group>"; };
 		EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = takePhoto.m; sourceTree = "<group>"; };
+		EFF5DD5E1E8FCD2100874150 /* Puppetcat.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puppetcat.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		EFF5DD361E8FCCD400874150 = {
 			isa = PBXGroup;
 			children = (
+				EFF5DD5D1E8FCD2100874150 /* Resources */,
 				EFF5DD591E8FCCFA00874150 /* TakePhoto */,
 				EFF5DD411E8FCCD400874150 /* SKUploadToPod */,
 				EFF5DD401E8FCCD400874150 /* Products */,
@@ -90,6 +93,14 @@
 				EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */,
 			);
 			path = TakePhoto;
+			sourceTree = "<group>";
+		};
+		EFF5DD5D1E8FCD2100874150 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5DD5E1E8FCD2100874150 /* Puppetcat.JPG */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				EFF5DD521E8FCCD400874150 /* LaunchScreen.storyboard in Resources */,
 				EFF5DD4F1E8FCCD400874150 /* Assets.xcassets in Resources */,
+				EFF5DD5F1E8FCD2100874150 /* Puppetcat.JPG in Resources */,
 				EFF5DD4D1E8FCCD400874150 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
