@@ -13,6 +13,7 @@
 		EFF5DD4D1E8FCCD400874150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD4B1E8FCCD400874150 /* Main.storyboard */; };
 		EFF5DD4F1E8FCCD400874150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD4E1E8FCCD400874150 /* Assets.xcassets */; };
 		EFF5DD521E8FCCD400874150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF5DD501E8FCCD400874150 /* LaunchScreen.storyboard */; };
+		EFF5DD5C1E8FCCFA00874150 /* takePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EFF5DD4E1E8FCCD400874150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF5DD511E8FCCD400874150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFF5DD531E8FCCD400874150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF5DD5A1E8FCCFA00874150 /* takePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = takePhoto.h; sourceTree = "<group>"; };
+		EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = takePhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		EFF5DD361E8FCCD400874150 = {
 			isa = PBXGroup;
 			children = (
+				EFF5DD591E8FCCFA00874150 /* TakePhoto */,
 				EFF5DD411E8FCCD400874150 /* SKUploadToPod */,
 				EFF5DD401E8FCCD400874150 /* Products */,
 			);
@@ -77,6 +81,15 @@
 				EFF5DD431E8FCCD400874150 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF5DD591E8FCCFA00874150 /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5DD5A1E8FCCFA00874150 /* takePhoto.h */,
+				EFF5DD5B1E8FCCFA00874150 /* takePhoto.m */,
+			);
+			path = TakePhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF5DD4A1E8FCCD400874150 /* ViewController.m in Sources */,
+				EFF5DD5C1E8FCCFA00874150 /* takePhoto.m in Sources */,
 				EFF5DD471E8FCCD400874150 /* AppDelegate.m in Sources */,
 				EFF5DD441E8FCCD400874150 /* main.m in Sources */,
 			);
